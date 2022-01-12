@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="todos.html">TODOS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Portfolios</h1>
+    </section>
+
+    <section class="portfolio">
+        <h1>Portfolio We Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quo animi corrupti sequi doloremque pariatur error fuga, amet modi? Dolor magnam, provident architecto minus consequatur nesciunt quae quo molestias rem.</p>
+        <div class="row">
+            <div class="portfolio-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium totam facere, similique optio saepe voluptatem molestiae veritatis velit deserunt hic reprehenderit delectus sed error, libero dolores numquam modi nemo? Quidem.</p>
+            </div>
+            <div class="portfolio-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium totam facere, similique optio saepe voluptatem molestiae veritatis velit deserunt hic reprehenderit delectus sed error, libero dolores numquam modi nemo? Quidem.</p>
+            </div>
+            <div class="portfolio-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium totam facere, similique optio saepe voluptatem molestiae veritatis velit deserunt hic reprehenderit delectus sed error, libero dolores numquam modi nemo? Quidem.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aspernatur repellendus nostrum beatae placeat exercitationem soluta ab. Rem vitae excepturi placeat necessitatibus minima mollitia odit alias, optio nam, molestiae quod.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore fuga accusamus, dolore, a ab possimus tenetur recusandae cumque error in beatae corporis, porro itaque? Eum ipsam quidem deleniti harum quisquam.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro et suscipit atque iste obcaecati cumque molestiae officia libero soluta consequatur, aspernatur harum autem nulla voluptas, tempora, eum nobis asperiores odio!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta optio dolor exercitationem eveniet impedit sequi error pariatur neque, dolore repellat veritatis accusantium numquam, fugiat consectetur facere assumenda? Nostrum, consequatur dolore.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sapiente dolorum molestias natus sit, delectus doloremque incidunt ab error nihil vitae culpa, quae quia quos iste molestiae eveniet ut officia!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> by Indra Putera</p>
+    </section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
